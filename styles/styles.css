@@ -515,12 +515,14 @@ gap: 24px;
     height: 40px;
      }
      .footer-form-input{
-        background-color: #2E2F42;
+        width: 264px;
+     background-color: #2E2F42;
     padding-left: 16px;
     color: #E7E9FC;
-        outline: none;
+     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+    font-size: 12px;
 
 }
 .modal-button-submit-footer{
@@ -813,13 +815,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primari-text-color);
-  margin-top: 72px;
+  margin-top: px;
 
 }
 
 .modal-form{
     display: flex;
     flex-direction: column;
+    padding-top: 72px;
+    
 }
 .modal-form-input{
     width: 100%;
@@ -868,6 +872,7 @@ transition: fill var(--transition) ;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; 
     margin-bottom: 16px;
+    font-size: 12px;
 }
 .modal-form-message:focus{
     outline: none;
@@ -883,6 +888,7 @@ transition: fill var(--transition) ;
         cursor: pointer;
         border-radius:2px; 
         margin-right: 8px;
+        font-size: 12px;
               
     }
     .modal-form-check:checked + .modal-form-check-desk::before{
