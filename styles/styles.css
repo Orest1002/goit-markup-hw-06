@@ -893,7 +893,7 @@ transition: fill var(--transition) ;
     }
     .modal-form-check:checked + .modal-form-check-desk::before{
 background-color: #404BBF;
-background-image:url(/img/social/property-click.svg) ;
+background-image:url( ../img/social/property-click.svg ) ;
     }
 
     .modal-form-check:focus + .modal-form-check-desk::before{
